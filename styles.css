@@ -1,0 +1,27 @@
+p {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+    display: block;
+}
+
+a:focus {
+    color: pink;
+}
+
+p:hover {
+    color: green;
+    transition: color 2s ease-in-out 100ms;
+}
+
+.btn {
+    display: inline;
+    color: black;
+    border: 1px solid black;
+
+    padding: 2px 5px;
+    border-radius: 25px;
+}
